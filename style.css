@@ -1,4 +1,4 @@
-header {
+.toptop {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,3 +23,65 @@ a {
     font-weight: 700;
     font-size: 22px;
     }
+
+    
+    .main-table {
+        border-color: rgb(145,147,148);
+        border-width: 0.5px;
+        border-style: solid;
+        padding: 0.5px 2px 0.5px 2px;
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+         }
+.main-table table {
+        text-align: center;
+        border-collapse: collapse;
+        width: 100%;
+        color: white;   
+    }
+    caption {
+        text-align: right;
+        caption-side: top;
+        font-weight: bold;
+        color: rgb(66, 59, 55);
+    }
+    td {
+        padding: 10px;
+    }
+    .col-1 {
+        background-color: rgb(225,225,225);
+        }
+    .col-2 {
+        background-color: rgb(91,213,215);
+        opacity: 0.1;
+        }
+    .col-3 {
+        background-color: rgb(148,199,83);
+    }
+    .col-4 {
+        background-color: rgb(245,207,49);
+    }
+    .col-5 {
+        background-color: rgb(238,76,64);
+    }
+    .align {
+        text-align: left;
+    }
+    .black {
+        color: black;
+    }
+    .line {
+        border-top: 1px solid white;
+    }
+    .pad {
+        padding: 10px;
+    }
+    p {
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin: auto;
+        }
+     
